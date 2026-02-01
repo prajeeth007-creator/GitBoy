@@ -1,1 +1,22 @@
-print("i am gitboy")
+fer is facial emotion recognisation, this is a pretrained library for facial recognisatio. 
+cv2 is computer vision. 
+mtccn is a facial recognisation algorithm 
+detector=FER(mtccn=tru)
+to access webcame cap = cv2.videoCapture(0)
+0 means single camera if multiple cameras type 1
+cap is video frame object
+while true is a loop 
+ret, frame =cap.read()
+ret is return 
+if not yet 
+breack
+detector.detect_emotions 
+detect_emotions for analyzing current frame
+result = detector.detect_emotions(frame)
+print(result)
+if cv2 waits(1) & 0xFF == ord(q)
+
+import cv2
+cap = cv2.videoCapture(0)
+while true
+      ret,frame = cap.read()
