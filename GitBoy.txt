@@ -1,1 +1,1 @@
-day one github.txt
+print("i am gitboy")
